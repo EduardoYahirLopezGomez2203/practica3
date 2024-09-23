@@ -1,10 +1,10 @@
 <!-- eliminar.php -->
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombreServidor = "localhost"; 
-    $nombreUsuario = "root";        
-    $contrasena = "090322eduardo090322E";             
-    $nombreBaseDatos = "practica3";
+    $nombreServidor = "sql303.infinityfree.com"; 
+    $nombreUsuario = "if0_37364789";        
+    $contrasena = "IOLqa8CFZEV";             
+    $nombreBaseDatos = "if0_37364789_practica3";
 
     $conn = new mysqli($nombreServidor,$nombreUsuario,$contrasena,$nombreBaseDatos);
 
